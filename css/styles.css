@@ -39,6 +39,10 @@ flex: 1 0 auto;
     background-color: #2da818;
 }
 
+.lista-pai {
+    color: #2da818;
+}
+
 #pai:hover {
     background-image: url('../img/pai.jpg');
 }
@@ -58,6 +62,10 @@ flex: 1 0 auto;
     background-color: #f44336;
 }
 
+.lista-mae {
+    color: #f44336;
+}
+
 #mae:hover {
     background-image: url('../img/mae.jpg');
 }
@@ -66,12 +74,20 @@ flex: 1 0 auto;
     background-color: #2196f3;
 }
 
+.lista-filho {
+    color: #2196f3;
+}
+
 #filho:hover {
     background-image: url('../img/filho.jpg');
 }
 
 #filha {
     background-color: #c814e7;
+}
+
+.lista-filha {
+    color: #c814e7;
 }
 
 #filha:hover {
