@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e4c0a8;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+}
+
+main {
+flex: 1 0 auto;
+}
+
+.familia {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.pessoa {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+#pai {
+    background-color: #2da818;
+}
+
+#mae {
+    background-color: #f44336;
+}
+
+#filho {
+    background-color: #2196f3;
+}
+
+#filha {
+    background-color: #c814e7;
+}
+
+.pessoa p {
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+}
+
+#mercado, #cardapio, #tarefas {
+    margin: 5% auto;
+    border: 1px solid black;
+}
+
+#mercado h2, #cardapio h2, #tarefas h2 {
+   text-align:center; 
+   font-size :1.5rem; 
+   margin-top :20px; 
+   padding-bottom :15px; 
+} 
+
+.voltar, .avancar {
+flex-direction: flex-end;
+
+}
+
+.btn {
+display: flex;
+justify-content: space-between;
+}
+
+#lista-familia { 
+   list-style-type :'\2714\00A0\00A0'; 
+   list-style-position :inside; 
+   columns :2; 
+   font-size :1.2rem; 
+   padding :10px; 
+} 
+
+#lista-tarefas { 
+   list-style-position :inside; 
+   columns :2; 
+   font-size :1.2rem; 
+   padding :10px; 
+   justify-content: center;	
+} 
+
+
+table.demo {
+    width:100%;
+    border-collapse: collapse;
+}
+
+table.demo th, table.demo td {
+    border:1px solid #000;
+    padding:10px;
+}
+
+table.demo th {
+    background-color:#f0f0f0;
+}
+
+table.demo tr:nth-child(even) {
+    background-color:#f2f2f2;
+}
+
+table.demo tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+table.demo caption {
+   padding:10px;
+   font-size:1.5rem;
+   font-weight:bold;
+   color:#333;
+}
+
+
+footer { 
+   background-color :black; 
+   color :white; 
+   text-align :center; 
+   padding :10px;
+flex-shrink: 0;
+}
+
+#mercado-page, #cardapio-page, #tarefas-page {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#mercado-page ul, #tarefas-page ol {
+height: 100%;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .familia {
+      flex-wrap: wrap;
+      align-items: center;
+  }
+
+  .pessoa {
+      width: 100px;
+      height: 100px;
+  }
+
+  .pessoa p {
+      line-height: 100px;
+  }
+
+  .demo {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+  }
+
+#mercado-page, #cardapio-page, #tarefas-page {
+        width: 100%;
+    }
+}

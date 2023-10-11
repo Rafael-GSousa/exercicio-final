@@ -108,6 +108,12 @@ header h1 {
     font-size: 1.2rem;
 }
 
+#lista ol {
+    list-style-position: inside;
+    columns: 3;
+    font-size: 1.2rem;
+}
+
 #seta-direita {
     margin-left: 70%;
     font-size: 0.8rem;
