@@ -96,7 +96,7 @@ header h1 {
     text-align: center;
     /* border: 1px solid black; */
     width: 600px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 20px;
     padding-bottom: 15px;
 }
@@ -104,8 +104,8 @@ header h1 {
 #lista ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
-    columns: 4;
-    font-size: 1.5rem;
+    columns: 3;
+    font-size: 1.2rem;
 }
 
 #seta-direita {
