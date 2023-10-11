@@ -33,20 +33,49 @@ flex: 1 0 auto;
     margin: 10px;
 }
 
+
+
 #pai {
     background-color: #2da818;
+}
+
+#pai:hover {
+    background-image: url('../img/pai.jpg');
+}
+
+#pai:hover, #mae:hover, #filho:hover, #filha:hover {
+    opacity: 0.9;
+    border-radius: 10%;
+    border: 3px solid lightseagreen;
+    box-shadow: 10px 2px 10px rgb(0, 0, 0, 0.390);
+}
+
+#pai p:hover, #mae p:hover, #filho p:hover, #filha p:hover {
+    display: none;
 }
 
 #mae {
     background-color: #f44336;
 }
 
+#mae:hover {
+    background-image: url('../img/mae.jpg');
+}
+
 #filho {
     background-color: #2196f3;
 }
 
+#filho:hover {
+    background-image: url('../img/filho.jpg');
+}
+
 #filha {
     background-color: #c814e7;
+}
+
+#filha:hover {
+    background-image: url('../img/filha.jpg');
 }
 
 .pessoa p {
@@ -102,6 +131,8 @@ table.demo {
 table.demo th, table.demo td {
     border:1px solid #000;
     padding:10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 table.demo th {

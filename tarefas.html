@@ -1,82 +1,76 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organização Familiar</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <header>
         <h1>ORGANIZAÇÃO FAMILIAR</h1>
     </header>
+
     <main>
-        <section>
-            <div class="familia">
-                <div class="imagens">
-                    <div id="pai" class="pessoa">
-                    </div>
-                    <p id="pPai">PAI</p>
-                </div>
-                <div class="imagens">
-                    <div id="mae" class="pessoa">
-                    </div>
-                    <p id="pMae">MÃE</p>
-                </div>
-                <div class="imagens">
-                    <div id="filho" class="pessoa">
-                    </div>
-                    <p id="pFilho">FILHO</p>
-                </div>
-                <div class="imagens">
-                    <div id="filha" class="pessoa">
-                    </div>
-                    <p id="pFilha">FILHA</p>
-                </div>
+        <!-- Seção da Família -->
+        <section class="familia">
+            <div id="pai" class="pessoa">
+                <p>PAI</p>
+            </div>
+            <div id="mae" class="pessoa">
+                <p>MÃE</p>
+            </div>
+            <div id="filho" class="pessoa">
+                <p>FILHO</p>
+            </div>
+            <div id="filha" class="pessoa">
+                <p>FILHA</p>
             </div>
         </section>
 
-        <section id="mercado">
-            <div class="container">
-                <div>
-                    <h2>LISTA DE TAREFAS</h2>
-                </div>
+        <!-- Seção de Tarefas -->
+        <div id="tarefas-page">
 
-                <div id="lista">
-                    <ol>
-                        <li>Tofu </li>
-                        <li>Quinoa </li>
-                        <li>Feijão Preto </li>
-                        <li>Lentilha </li>
-                        <li>Sementes de Chia </li>
-                        <li>Grão de Bico </li>
-                        <li>Pimentões </li>
-                        <li>Pimenta Caiena </li>
-                        <li>Tempeh </li>
-                        <li>Flocão de Milho </li>
-                        <li>Cenoura </li>
-                        <li>Humus </li>
-                        <li>Iogurte Grego </li>
-                        <li>Frutas Frescas </li>
-                        <li>Massa Integral </li>
-                        <li>Molho de Tomate </li>
-                        <li>Ricota </li>
-                        <li>Granola </li>
-                    </ul>
-                </div>
+            <section id="tarefas">
+                <h2>TAREFAS SEMANAIS</h2>
 
-                <div id="seta-direita">
-                    Lista de Compras &RightArrow;
+                <ol id="lista-tarefas" class="listas">
+                    <li>Fazer compras</li>
+                    <li>Cozinhar</li>
+                    <li>Levar o filho à escola</li>
+                    <li>Praticar esportes</li>
+                    <li>Ajudar a filha com as aulas de piano</li>
+                    <li>Limpar a casa</li>
+                    <li>Passear com o cachorro</li>
+                    <li>Regar as plantas</li>
+                    <li>Pagar as contas</li>
+                    <li>Fazer a manutenção do carro</li>
+                </ol>
+
+            </section>
+            <div class="btn">
+                <div class="voltar">
+                    <a href="cardapio.html">
+                        <img src="./img/voltar.png" alt="">
+                    </a>
+                </div>
+                <div class="avancar">
+                    <a href="index.html">
+                        <img src="./img/avancar.png" alt="">
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+
     </main>
 
     <footer>
-        <div>
-            <p>Desenvolvido por Rafael Galdino</p>
-        </div>
+        <p>Desenvolvido por Rafael Galdino
+        <p>
     </footer>
 </body>
+
 </html>

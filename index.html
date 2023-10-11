@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organização Familiar</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <header>
         <h1>ORGANIZAÇÃO FAMILIAR</h1>
@@ -15,148 +17,75 @@
     <main>
         <!-- Seção da Família -->
         <section class="familia">
-            <div id="pai" class="pessoa"><p>PAI</p></div>
-            <div id="mae" class="pessoa"><p>MÃE</p></div>
-            <div id="filho" class="pessoa"><p>FILHO</p></div>
-            <div id="filha" class="pessoa"><p>FILHA</p></div>
+            <div id="pai" class="pessoa">
+                <p>PAI</p>
+            </div>
+            <div id="mae" class="pessoa">
+                <p>MÃE</p>
+            </div>
+            <div id="filho" class="pessoa">
+                <p>FILHO</p>
+            </div>
+            <div id="filha" class="pessoa">
+                <p>FILHA</p>
+            </div>
         </section>
 
         <!-- Seção do Supermercado -->
-        <section id="mercado">
-            <h2>SUPERMERCADO</h2>
-	   
-              <ul id="lista-familia" class="listas">
-		<!-- Pai -->
-                <li>Tofu</li>
-                <li>Quinoa</li>
-                <li>Feijão Preto</li>
-                <li>Lentilha</li>
-                <li>Sementes de Chia</li>
-            	
-		<!-- Mãe -->
-                <li>Pimentões</li>
-                <li>Pimenta Caiena</li>
-                <li>Tempeh</li>
-                <li>Flocão de Milho</li>
-                <li>Cenoura</li>
-		
-		<!-- FIlho -->
-                <li>Humus</li>
-                <li>Iogurte Grego</li>
-                <li>Frutas Frescas</li>
-                <li>Massa Integral</li>
-                <li>Molho de Tomate</li>
+        <div id="mercado-page">
+            <section id="mercado">
+                <h2>SUPERMERCADO</h2>
 
-		<!-- FIlha -->
-                <li>Ricota</li>
-                <li>Granola</li>
-                <li>Pão Integral</li>
-                <li>Leite de Amêndoas</li>
-                <li>Mel</li>
-              </ul>
-	   
-        </section>
+                <ul id="lista-familia" class="listas">
+                    <!-- Pai -->
+                    <li>Tofu</li>
+                    <li>Quinoa</li>
+                    <li>Feijão Preto</li>
+                    <li>Lentilha</li>
+                    <li>Sementes de Chia</li>
 
-        <!-- Seção do Cardápio -->
-        <section id="cardapio">
+                    <!-- Mãe -->
+                    <li>Pimentões</li>
+                    <li>Pimenta Caiena</li>
+                    <li>Tempeh</li>
+                    <li>Flocão de Milho</li>
+                    <li>Cenoura</li>
 
-<table class="demo">
-	<caption>CARDÁPIO SEMANAL</caption>
-	<thead>
-	<tr>
-		<th><br></th>
-		<th>SEGUNDA</th>
-		<th>TERÇA</th>
-		<th>QUARTA</th>
-		<th>QUINTA</th>
-		<th>SEXTA</th>
-		<th>SÁBADO</th>
-		<th>DOMINGO</th>
-	</tr>
-	</thead>
-	<tbody>
-	<tr>
-		<th>Café da Manhã</th>
-		<td>opção 1</td>
-		<td>opção 2</td>
-		<td>opção 3</td>
-		<td>opção 4</td>
-		<td>opção 5</td>
-		<td colspan="2">opção 6</td>
-	</tr>
-	<tr>
-		<th rowspan="2">Almoço</th>
-		<td>opção 1</td>
-		<td>opção 2</td>
-		<td>opção 3</td>
-		<td>opção 4</td>
-		<td>opção 5</td>
-		<td>opção 6</td>
-		<td>opção 7</td>
-	</tr>
-	<tr>
-		<td>opção 1</td>
-		<td>opção 2</td>
-		<td>opção 3</td>
-		<td>opção 4</td>
-		<td>opção 5</td>
-		<td>opção 6</td>
-		<td>opção 7</td>
-	</tr>
-	<tr>
-		<th>Lanche</th>
-		<td>opção 1</td>
-		<td>opção 2</td>
-		<td>opção 3</td>
-		<td>opção 4</td>
-		<td>opção 5</td>
-		<td colspan="2">opção 6</td>
-	</tr>
-	<tr>
-		<th rowspan="2">Jantar</th>
-		<td>opção 1</td>
-		<td>opção 2</td>
-		<td>opção 3</td>
-		<td>opção 4</td>
-		<td>opção 5</td>
-		<td>opção 6</td>
-		<td>opção 7</td>
-	</tr>
-	<tr>
-		<td>opção 1</td>
-		<td>opção 2</td>
-		<td>opção 3</td>
-		<td>opção 4</td>
-		<td>opção 5</td>
-		<td>opção 6</td>
-		<td>opção 7</td>
-	</tr>
-	<tbody>
-</table>
-        </section>
+                    <!-- FIlho -->
+                    <li>Humus</li>
+                    <li>Iogurte Grego</li>
+                    <li>Frutas Frescas</li>
+                    <li>Massa Integral</li>
+                    <li>Molho de Tomate</li>
 
-        <!-- Seção de Tarefas -->
-        <section id="tarefas">
-            <h2>TAREFAS SEMANAIS</h2>
-           
-	      <ol id="lista-tarefas" class="listas">
-                <li>Fazer compras</li>
-                <li>Cozinhar</li>
-                <li>Levar o filho à escola</li>
-                <li>Praticar esportes</li>
-                <li>Ajudar a filha com as aulas de piano</li>
-                <li>Limpar a casa</li>
-                <li>Passear com o cachorro</li>
-                <li>Regar as plantas</li>
-                <li>Pagar as contas</li>
-                <li>Fazer a manutenção do carro</li>
-             </ol>
-	
-        </section>
+                    <!-- FIlha -->
+                    <li>Ricota</li>
+                    <li>Granola</li>
+                    <li>Pão Integral</li>
+                    <li>Leite de Amêndoas</li>
+                    <li>Mel</li>
+                </ul>
+
+            </section>
+            <div class="btn">
+                <div class="voltar">
+                    <a href="tarefas.html">
+                        <img src="./img/voltar.png" alt="">
+                    </a>
+                </div>
+                <div class="avancar">
+                    <a href="cardapio.html">
+                        <img src="./img/avancar.png" alt="">
+                    </a>
+                </div>
+            </div>
+
     </main>
 
     <footer>
-        <p>Desenvolvido por Rafael Galdino<p>
+        <p>Desenvolvido por Rafael Galdino
+        <p>
     </footer>
 </body>
+
 </html>
